@@ -1,0 +1,6 @@
+version: "3"
+services:
+  nacos:
+    image: xxx/nacos-server:v2.3.2
+    build:
+      context: .  # 使用当前目录作为上下文
